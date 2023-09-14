@@ -20,8 +20,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .green-box {
   background-color: #017d27;
   text-align: left;
@@ -104,4 +102,16 @@ border-width: 0;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.grid-container {
+  text-align: center;
+  row-gap: 50px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 450px;
 }
